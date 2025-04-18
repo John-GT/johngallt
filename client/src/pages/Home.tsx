@@ -10,6 +10,7 @@ import TestimonialsSection from '@/sections/TestimonialsSection';
 import CTASection from '@/sections/CTASection';
 import ContactSection from '@/sections/ContactSection';
 import { motion } from 'framer-motion';
+import WhatsappButton from '@/components/WhatsappButton';
 
 const Home = () => {
   const contactRef = useRef<HTMLElement | null>(null);
@@ -38,6 +39,8 @@ const Home = () => {
         <ContactSection />
       </main>
       
+
+      <WhatsappButton />
       <Footer />
     </div>
   );
